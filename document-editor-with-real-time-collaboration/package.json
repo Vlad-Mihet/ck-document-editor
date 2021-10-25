@@ -23,6 +23,7 @@
     "@ckeditor/ckeditor5-paste-from-office": "^30.0.0",
     "@ckeditor/ckeditor5-real-time-collaboration": "^30.0.0",
     "@ckeditor/ckeditor5-remove-format": "^30.0.0",
+    "@ckeditor/ckeditor5-restricted-editing": "^30.0.0",
     "@ckeditor/ckeditor5-table": "^30.0.0",
     "@ckeditor/ckeditor5-watchdog": "^30.0.0"
   },

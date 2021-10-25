@@ -91,60 +91,120 @@ This file is licensed under the terms of the MIT License (see LICENSE.md).
 	/* globals createDialog DocumentEditorWithRealTimeCollaboration */
 
 	const initialData = `
-		<h2 style="text-align:center;">The Flavorful Tuscany Meetup</h2>
-		<h3 style="text-align:center;">Welcome letter</h3>
-
-		<p>Dear Guest,</p>
-		<p>We are delighted to welcome you to the annual <em>Flavorful Tuscany Meetup</em> and hope you will enjoy the programme as well as your stay at the <a href="https://ckeditor.com">Bilancino Hotel</a>.</p>
-		<p>Please find below the full schedule of the event.</p>
-
-		<figure class="table">
+		<div id="document-content">
+		<header>
+			<h1>navigator - Hong Kong - 1.0.1</h1>
+		</header>
+		<div data-group-reference="OCcLCkOMZ1O9euz8YDDOZyhIXztOcR1vWwcPhFwVB7L9K1D7KH1mikhwKhwftVXwmuAPY455qN3ElVLOgDag7GWt5PCad61DBF9E:T7XRxjT5d3hLg4cGPrFoEphinH6kfOYBOSTdenbeq6rVT5C4xpTCh3dpIYIaODKiS4RCUFYzlnYUxAPFXUAhQAPzLTgmOQYi7R0b">
+			<h2>Scope: Scope statement</h2>
 			<table>
 				<thead>
 					<tr>
-						<th colspan="2"><span>Saturday, July 14</span></th>
+						<td>
+							<h4>Service</h4>
+						</td>
+						<td>
+							<h4>Product</h4>
+						</td>
+						<td>
+							<h4>Response</h4>
+						</td>
+						<td>
+							<h4>Supporting comment</h4>
+						</td>
 					</tr>
 				</thead>
-				<tbody>
-					<tr>
-						<td><span>9:30 AM - 11:30 AM</span></td>
-						<td>
-							<span><strong>Americano vs. Brewed</strong> - “know your coffee” with:</span>
-							<ul>
-								<li>Giulia Bianchi</li>
-								<li>Stefano Garau</li>
-								<li>Giuseppe Russo</li>
-							</ul>
-						</td>
-					</tr>
-					<tr>
-						<td><span>1:00 PM - 3:00 PM</span></td>
-						<td>
-							<p><strong>Pappardelle al pomodoro</strong> - live cooking</p>
-							<p>Incorporate the freshest ingredients <br> with Rita Fresco</p>
-						</td>
-					</tr>
-					<tr>
-						<td><span>5:00 PM - 8:00 PM</span></td>
-						<td>
-							<p><strong>Tuscan vineyards at a glance</strong> - wine-tasting <br> with Frederico Riscoli</p>
-						</td>
-					</tr>
-				</tbody>
+				<tr data-response-reference="e742153ca678619049c06ea90585d63c7ee22698" class="">
+					<td data-response-value="services.name">
+						<span class="response-column-value">Banking</span>
+					</td>
+					<td data-response-value="products.name">
+						<span class="response-column-value">Deposits</span>
+					</td>
+					<td data-response-value="textResponse">
+						<span class="restricted-editing-exception response-column-value">Taking deposits and other repayable funds EU Legislation reference - CRD IV Implemented without change - Y</span>
+					</td>
+					<td data-response-value="comment">
+						<span class="response-column-value"> 	Deposit-taking is a regulated activity in the jurisdiction.  	In the jurisdiction, Deposit-taking is defined as “taking deposits or other repayable funds from the public in Germany. There is no definition of “public” for these purposes. However, according to the BaFin guidance, “public” shall mean every natural or legal person.
+	 	Deposit-taking includes:
+	 	Structured deposits ;
+	 	Certificates of deposits which are not regulated under the MiFID and/or the PR ; and
+	 	Sweep deposit accounts (i.e. a deposit account held with the Services Provider to which cash available in the brokerage / managed account is transferred).</span>
+					</td>
+				</tr>
+				<tr data-response-reference="84fc78ed1de26b2769413b5a969a30267ce7c984" class="">
+					<td data-response-value="services.name">
+						<span class="response-column-value">Banking</span>
+					</td>
+					<td data-response-value="products.name">
+						<span class="response-column-value">Foreign Exchange</span>
+					</td>
+					<td data-response-value="textResponse">
+						<span class="restricted-editing-exception response-column-value">Trading for own account or for account of customers in foreign exchange. EU Legislation reference - CRD IV Implemented without change - Y</span>
+					</td>
+					<td data-response-value="comment">
+						<span class="response-column-value"> 	Foreign Exchange Trading is a regulated activity in the jurisdiction.  	Foreign Exchange Trading does not include trading in MiFID financial instruments (including FX derivatives) which activity is not covered within the scope of this Matrix. Please refer to the navigator: derivatives and FX matrix for details on trading in MiFID financial instruments which are FX derivatives. FX spot contracts:
+	 	Foreign Exchange Trading includes trading in FX spot contracts. “FX spot contract” means a contract for the exchange of one currency against another currency, under the terms of which delivery is scheduled to be made within the longer of the following periods:
+	 	2 trading days in respect of any pair of the major currencies set out below;
+	 	for any pair of currencies where at least one currency is not a major currency, the longer of 2 trading days or the period generally accepted in the market for that currency pair as the standard delivery period;  	where the contract for the exchange of those currencies is used for the main purpose of the sale or purchase of a transferable security or a unit in a collective investment undertaking, the period generally accepted in the market for the settlement of that transferable security or a unit in a collective investment undertaking as the standard delivery period or 5 trading days, whichever is shorter.
+	However, a contract shall not be considered a spot contract where, irrespective of its explicit terms, there is an understanding between the parties to the contract that delivery of the currency is to be postponed and not to be performed within the period set out in the first subparagraph.
+	Major currencies for the purposes of the definition of FX spot contracts mean US dollar, Euro, Japanese yen, Pound sterling, Australian dollar, Swiss franc, Canadian dollar, Hong Kong dollar, Swedish krona, New Zealand dollar, Singapore dollar, Norwegian krone, Mexican peso, Croatian kuna, Bulgarian lev, Czech koruna, Danish krone, Hungarian forint, Polish złoty and Romanian leu.
+	 	Trading in FX spot contracts is regulated in the jurisdiction.</span>
+					</td>
+				</tr>
+				<tr data-response-reference="621dcea661b856f591a05a86927a36bff6b52361" class="">
+					<td data-response-value="services.name">
+						<span class="response-column-value">Banking</span>
+					</td>
+					<td data-response-value="products.name">
+						<span class="response-column-value">FX Spot Contract</span>
+					</td>
+					<td data-response-value="textResponse">
+						<span class="restricted-editing-exception response-column-value">Response TBC</span>
+					</td>
+					<td data-response-value="comment">
+						<span class="response-column-value"></span>
+					</td>
+				</tr>
+				<tr data-response-reference="8fbff6b79a68690544ed016d65bfc98613c7117a" class="">
+					<td data-response-value="services.name">
+						<span class="response-column-value">Banking</span>
+					</td>
+					<td data-response-value="products.name">
+						<span class="response-column-value">Guarantees and Commitments</span>
+					</td>
+					<td data-response-value="textResponse">
+						<span class="restricted-editing-exception response-column-value">Providing guarantees and commitments.
+	EU Legislation reference - CRD IV
+	Implemented without change - Y</span>
+					</td>
+					<td data-response-value="comment">
+						<span class="response-column-value"> 	Providing guarantees and commitments is a regulated activity in the jurisdiction.
+	 	Providing guarantees and commitments to clients includes providing banking industry products such as letters of credit and undrawn lending commitments.</span>
+					</td>
+				</tr>
+				<tr data-response-reference="1c5f16a254ad4344e6484bf721ef17d9018e82c3" class="">
+					<td data-response-value="services.name">
+						<span class="response-column-value">Banking</span>
+					</td>
+					<td data-response-value="products.name">
+						<span class="response-column-value">Payments</span>
+					</td>
+					<td data-response-value="textResponse">
+						<span class="restricted-editing-exception response-column-value"> 	Cash deposits (i.e. services enabling cash to be placed on a payment account as well as all the operations required for operating a payment account).
+	 	Cash withdrawals (i.e. services enabling cash withdrawals from a payment account as well as all the operations required for operating a payment account).
+	 	Execution of payment transactions, including (a) transfers of funds on a payment account with the user&#39;s payment service provider or with another payment service provider or (b) where the funds are covered by a credit line for a payment service user:
+	 	execution of direct debits, including one-off direct debits,
+	 	execution of payment transactions through a payment card or a similar device,
+	 	execution of credit transfers, including standing orders.
+	 	Issuing of payment instruments (i.e. payment service by a payment service provider contracting to provide a payer with a payment instrument to initiate and process the payer’s payment transactions) and/or acquiring of payment transactions (i.e. payment service provided by a payment service provider contracting with a payee to accept and process payment transactions, which results in a transfer of funds to the payee).
+	 	Money remittance.
+	</span>
+					</td>
+				</tr>
 			</table>
-		</figure>
-
-		<blockquote>
-			<p>The annual Flavorful Tuscany meetups are always a culinary discovery. You get the best of Tuscan flavors during an intense one-day stay at one of the top hotels of the region. All the sessions are lead by top chefs passionate about their profession. I would certainly recommend to save the date in your calendar for this one!</p>
-
-			<p>Angelina Calvino, food journalist</p>
-		</blockquote>
-
-		<p>Please arrive at the <a href="https://ckeditor.com">Bilancino Hotel</a> reception desk at least half an hour earlier to make sure that the registration process goes as smoothly as possible.</p>
-
-		<p>We look forward to welcoming you to the event.</p>
-
-		<p><strong>Victoria Valc</strong> - Event Manager</p>
+		</div>
+	</div>
 	`;
 
 	const { DecoupledEditor, EditorWatchdog } = DocumentEditorWithRealTimeCollaboration;

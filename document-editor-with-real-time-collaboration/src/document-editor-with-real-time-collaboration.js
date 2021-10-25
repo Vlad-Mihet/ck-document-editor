@@ -35,6 +35,7 @@ import Highlight from '@ckeditor/ckeditor5-highlight/src/highlight';
 import RemoveFormat from '@ckeditor/ckeditor5-remove-format/src/removeformat';
 import Strikethrough from '@ckeditor/ckeditor5-basic-styles/src/strikethrough';
 import Underline from '@ckeditor/ckeditor5-basic-styles/src/underline';
+import RestrictedEditingMode from '@ckeditor/ckeditor5-restricted-editing/src/restrictededitingmode';
 
 import RealTimeCollaborativeEditing from '@ckeditor/ckeditor5-real-time-collaboration/src/realtimecollaborativeediting';
 import RealTimeCollaborativeComments from '@ckeditor/ckeditor5-real-time-collaboration/src/realtimecollaborativecomments';
@@ -76,7 +77,8 @@ DecoupledEditor.builtinPlugins = [
 	Table,
 	TableToolbar,
 	Underline,
-	UploadAdapter
+	UploadAdapter,
+	RestrictedEditingMode
 ];
 
 DecoupledEditor.defaultConfig = {
@@ -121,6 +123,19 @@ DecoupledEditor.defaultConfig = {
 			'|',
 			'comment'
 		]
+	},
+	restrictedEditing: {
+		allowedCommands: [
+			'bold',
+			'italic',
+			'bulletedList',
+			'numberedList',
+			'undo',
+			'redo',
+			'exportPdf',
+			'comment',
+			'trackChanges'
+		],
 	},
 	table: {
 		contentToolbar: [
